@@ -54,6 +54,9 @@ selectedcountriesdf <- newgapminderdf %>% filter(country %in% selectedcountries)
 ##write to file
 write.table(selectedcountriesdf, "selectedcountriesdf.tsv", quote = FALSE, sep = "\t")
 
+
+##Make and save scatterplots for the six best/worst countries on each continent, facetting by country.
+
 africadf <- selectedcountriesdf %>% filter(continent == "Africa")
 
 africa <- ggplot(africadf, 

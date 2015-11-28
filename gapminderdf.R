@@ -1,20 +1,26 @@
 library(ggplot2)
 suppressPackageStartupMessages(library(dplyr))
 
+##Download data from the internet
 cat(file = "gapminder.tsv", RCurl::getURL("https://raw.githubusercontent.com/jennybc/gapminder/master/inst/gapminder.tsv"))
 
+##write a dataframe
 gapminderdf <- read.delim("gapminder.tsv")
 write.table(gapminderdf, "gapminderdf.tsv", quote = FALSE, sep = "\t")
 
+##sort continents by maximum life expectancy
 gapminderdf_maxlifeExp <- gapminderdf %>%
 	group_by(continent) %>%
 	summarize(maxlifeExp = max(lifeExp)) %>% 
 	arrange(maxlifeExp)
 write.table(gapminderdf_maxlifeExp, "gapminderdf_maxlifeExp.tsv", quote = FALSE, sep = "\t")
 
+##make a new dataframe with all data, with continents ordered by life expectancy.
 newgapminderdf <- gapminderdf %>%
 	arrange(newcontinent = reorder(continent, desc(lifeExp)))
 write.table(newgapminderdf, "newgapminderdf.tsv", quote = FALSE, sep = "\t")
+
+##make and save some exploratory plots
 
 plot1 <- ggplot(gapminderdf, 
 	aes(x=gdpPercap, y=lifeExp)) + 
