@@ -1,32 +1,57 @@
-all: Homework9Report.html
+all: MakefileMarkdown.html
 
 clean:
-	rm -f gapminder.tsv gapminderdf.tsv gapminderdf_maxlifeExp.tsv GDPpercapVsContinent.png LifeExpWeightedMean.png LifeExpVsYear.png LifeExpVsGDPpercap.png Homework9Report.html
+	rm -f gapminder.tsv gapminderdf.tsv gapminderdf_maxlifeExp.tsv newgapminderdf.tsv LifeExpVsGDPpercap.png GDPpercapVsContinent.png LifeExpWeightedMean.png LifeExpVsYear.png allcountries.tsv selectedcountriesdf.tsv africa.png asia.png europe.png americas.png
 
-gapminder.tsv:
-	curl -O https://raw.githubusercontent.com/jennybc/gapminder/master/inst/gapminder.tsv
-
-gapminderdf.tsv: gapminder.tsv gapminderdf.R
+gapminder.tsv: gapminderdf.R
 	Rscript gapminderdf.R
 
-gapminderdf_maxlifeExp.tsv: gapminderdf.tsv gapminderdf_maxlifeExp.R
-	Rscript gapminderdf_maxlifeExp.R
+gapminderdf.tsv: gapminderdf.R gapminder.tsv
+	Rscript gapminderdf.R
 
-GDPpercapVsContinent.png: gapminder.tsv
-	Rscript plot2.R
+gapminderdf_maxlifeExp.tsv: gapminderdf.R gapminder.tsv
+	Rscript gapminderdf.R
+
+newgapminderdf.tsv: gapminderdf.R gapminder.tsv gapminderdf.tsv
+	Rscript gapminderdf.R
+	
+LifeExpVsGDPpercap.png: gapminderdf.R gapminder.tsv gapminderdf.tsv
+	Rscript gapminderdf.R
 	rm Rplots.pdf
 
-LifeExpWeightedMean.png: gapminder.tsv
-	Rscript plot3.R
+GDPpercapVsContinent.png: gapminderdf.R gapminder.tsv gapminderdf.tsv
+	Rscript gapminderdf.R
 	rm Rplots.pdf
 
-LifeExpVsYear.png: gapminder.tsv
-	Rscript plot4.R
+LifeExpWeightedMean.png: gapminderdf.R gapminder.tsv gapminderdf.tsv
+	Rscript gapminderdf.R
 	rm Rplots.pdf
 
-LifeExpVsGDPpercap.png: gapminder.tsv
-	Rscript plot1.R
+LifeExpVsYear.png: gapminderdf.R gapminder.tsv gapminderdf.tsv
+	Rscript gapminderdf.R
 	rm Rplots.pdf
 
-Homework9Report.html: Homework9Report.Rmd gapminder.tsv gapminderdf.tsv gapminderdf_maxlifeExp.tsv GDPpercapVsContinent.png LifeExpWeightedMean.png LifeExpVsYear.png LifeExpVsGDPpercap.png
+allcountries.tsv: gapminderstatanalyses.R gapminder.tsv gapminderdf.tsv newgapminderdf.tsv
+	Rscript gapminderstatanalyses.R
+
+selectedcountriesdf.tsv: gapminderstatanalyses.R gapminder.tsv gapminderdf.tsv newgapminderdf.tsv
+	Rscript gapminderstatanalyses.R
+
+africa.png: gapminderstatanalyses.R selectedcountriesdf.tsv gapminder.tsv gapminderdf.tsv newgapminderdf.tsv
+	Rscript gapminderstatanalyses.R
+	rm Rplots.pdf
+
+asia.png: gapminderstatanalyses.R selectedcountriesdf.tsv gapminder.tsv gapminderdf.tsv newgapminderdf.tsv
+	Rscript gapminderstatanalyses.R
+	rm Rplots.pdf
+
+europe.png: gapminderstatanalyses.R selectedcountriesdf.tsv gapminder.tsv gapminderdf.tsv newgapminderdf.tsv
+	Rscript gapminderstatanalyses.R
+	rm Rplots.pdf
+
+americas.png: gapminderstatanalyses.R selectedcountriesdf.tsv gapminder.tsv gapminderdf.tsv newgapminderdf.tsv
+	Rscript gapminderstatanalyses.R
+	rm Rplots.pdf
+
+MakefileMarkdown.html: MakefileMarkdown.Rmd gapminder.tsv gapminderdf.tsv gapminderdf_maxlifeExp.tsv newgapminderdf.tsv LifeExpVsGDPpercap.png GDPpercapVsContinent.png LifeExpWeightedMean.png LifeExpVsYear.png allcountries.tsv selectedcountriesdf.tsv africa.png asia.png europe.png americas.png
 	Rscript -e 'rmarkdown::render("$<")'

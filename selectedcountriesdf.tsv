@@ -1,0 +1,289 @@
+country	continent	year	lifeExp	I.year...offset.	.fitted	.se.fit	.resid	.hat	.sigma
+1	Afghanistan	Asia	1952	28.801	0	28.801	NA	0	1	0
+2	Afghanistan	Asia	1957	30.332	5	30.332	NA	0	1	0
+3	Afghanistan	Asia	1962	31.997	10	31.997	NA	0	1	0
+4	Afghanistan	Asia	1967	34.02	15	34.02	NA	0	1	0
+5	Afghanistan	Asia	1972	36.088	20	36.088	NA	0	1	0
+6	Afghanistan	Asia	1977	38.438	25	38.438	NA	0	1	0
+7	Afghanistan	Asia	1982	39.854	30	39.854	NA	0	1	0
+8	Afghanistan	Asia	1987	40.822	35	40.822	NA	0	1	0
+9	Afghanistan	Asia	1992	41.674	40	41.674	NA	0	1	0
+10	Afghanistan	Asia	1997	41.763	45	41.763	NA	0	1	0
+11	Afghanistan	Asia	2002	42.129	50	42.129	NA	0	1	0
+12	Afghanistan	Asia	2007	43.828	55	43.828	NA	0	1	0
+13	Albania	Europe	1952	55.23	0	55.23	NA	0	1	0
+14	Albania	Europe	1957	59.28	5	59.28	NA	0	1	0
+15	Albania	Europe	1962	64.82	10	64.82	NA	0	1	0
+16	Albania	Europe	1967	66.22	15	66.22	NA	0	1	0
+17	Albania	Europe	1972	67.69	20	67.69	NA	0	1	0
+18	Albania	Europe	1977	68.93	25	68.93	NA	0	1	0
+19	Albania	Europe	1982	70.42	30	70.42	NA	0	1	0
+20	Albania	Europe	1987	72	35	72	NA	0	1	0
+21	Albania	Europe	1992	71.581	40	71.581	NA	0	1	0
+22	Albania	Europe	1997	72.95	45	72.95	NA	0	1	0
+23	Albania	Europe	2002	75.651	50	75.651	NA	0	1	0
+24	Albania	Europe	2007	76.423	55	76.423	NA	0	1	0
+25	Angola	Africa	1952	30.015	0	30.015	NA	0	1	0
+26	Angola	Africa	1957	31.999	5	31.999	NA	0	1	0
+27	Angola	Africa	1962	34	10	34	NA	0	1	0
+28	Angola	Africa	1967	35.985	15	35.985	NA	0	1	0
+29	Angola	Africa	1972	37.928	20	37.928	NA	0	1	0
+30	Angola	Africa	1977	39.483	25	39.483	NA	0	1	0
+31	Angola	Africa	1982	39.942	30	39.942	NA	0	1	0
+32	Angola	Africa	1987	39.906	35	39.906	NA	0	1	0
+33	Angola	Africa	1992	40.647	40	40.647	NA	0	1	0
+34	Angola	Africa	1997	40.963	45	40.963	NA	0	1	0
+35	Angola	Africa	2002	41.003	50	41.003	NA	0	1	0
+36	Angola	Africa	2007	42.731	55	42.731	NA	0	1	0
+37	Bolivia	Americas	1952	40.414	0	40.414	NA	0	1	0
+38	Bolivia	Americas	1957	41.89	5	41.89	NA	0	1	0
+39	Bolivia	Americas	1962	43.428	10	43.428	NA	0	1	0
+40	Bolivia	Americas	1967	45.032	15	45.032	NA	0	1	0
+41	Bolivia	Americas	1972	46.714	20	46.714	NA	0	1	0
+42	Bolivia	Americas	1977	50.023	25	50.023	NA	0	1	0
+43	Bolivia	Americas	1982	53.859	30	53.859	NA	0	1	0
+44	Bolivia	Americas	1987	57.251	35	57.251	NA	0	1	0
+45	Bolivia	Americas	1992	59.957	40	59.957	NA	0	1	0
+46	Bolivia	Americas	1997	62.05	45	62.05	NA	0	1	0
+47	Bolivia	Americas	2002	63.883	50	63.883	NA	0	1	0
+48	Bolivia	Americas	2007	65.554	55	65.554	NA	0	1	0
+49	Bosnia and Herzegovina	Europe	1952	53.82	0	53.82	NA	0	1	0
+50	Bosnia and Herzegovina	Europe	1957	58.45	5	58.45	NA	0	1	0
+51	Bosnia and Herzegovina	Europe	1962	61.93	10	61.93	NA	0	1	0
+52	Bosnia and Herzegovina	Europe	1967	64.79	15	64.79	NA	0	1	0
+53	Bosnia and Herzegovina	Europe	1972	67.45	20	67.45	NA	0	1	0
+54	Bosnia and Herzegovina	Europe	1977	69.86	25	69.86	NA	0	1	0
+55	Bosnia and Herzegovina	Europe	1982	70.69	30	70.69	NA	0	1	0
+56	Bosnia and Herzegovina	Europe	1987	71.14	35	71.14	NA	0	1	0
+57	Bosnia and Herzegovina	Europe	1992	72.178	40	72.178	NA	0	1	0
+58	Bosnia and Herzegovina	Europe	1997	73.244	45	73.244	NA	0	1	0
+59	Bosnia and Herzegovina	Europe	2002	74.09	50	74.09	NA	0	1	0
+60	Bosnia and Herzegovina	Europe	2007	74.852	55	74.852	NA	0	1	0
+61	Cambodia	Asia	1952	39.417	0	39.417	NA	0	1	0
+62	Cambodia	Asia	1957	41.366	5	41.366	NA	0	1	0
+63	Cambodia	Asia	1962	43.415	10	43.415	NA	0	1	0
+64	Cambodia	Asia	1967	45.415	15	45.415	NA	0	1	0
+65	Cambodia	Asia	1972	40.317	20	40.317	NA	0	1	0
+66	Cambodia	Asia	1977	31.22	25	31.22	NA	0	1	0
+67	Cambodia	Asia	1982	50.957	30	50.957	NA	0	1	0
+68	Cambodia	Asia	1987	53.914	35	53.914	NA	0	1	0
+69	Cambodia	Asia	1992	55.803	40	55.803	NA	0	1	0
+70	Cambodia	Asia	1997	56.534	45	56.534	NA	0	1	0
+71	Cambodia	Asia	2002	56.752	50	56.752	NA	0	1	0
+72	Cambodia	Asia	2007	59.723	55	59.723	NA	0	1	0
+73	Canada	Americas	1952	68.75	0	68.75	NA	0	1	0
+74	Canada	Americas	1957	69.96	5	69.96	NA	0	1	0
+75	Canada	Americas	1962	71.3	10	71.3	NA	0	1	0
+76	Canada	Americas	1967	72.13	15	72.13	NA	0	1	0
+77	Canada	Americas	1972	72.88	20	72.88	NA	0	1	0
+78	Canada	Americas	1977	74.21	25	74.21	NA	0	1	0
+79	Canada	Americas	1982	75.76	30	75.76	NA	0	1	0
+80	Canada	Americas	1987	76.86	35	76.86	NA	0	1	0
+81	Canada	Americas	1992	77.95	40	77.95	NA	0	1	0
+82	Canada	Americas	1997	78.61	45	78.61	NA	0	1	0
+83	Canada	Americas	2002	79.77	50	79.77	NA	0	1	0
+84	Canada	Americas	2007	80.653	55	80.653	NA	0	1	0
+85	China	Asia	1952	44	0	44	NA	0	1	0
+86	China	Asia	1957	50.54896	5	50.54896	NA	0	1	0
+87	China	Asia	1962	44.50136	10	44.50136	NA	0	1	0
+88	China	Asia	1967	58.38112	15	58.38112	NA	0	1	0
+89	China	Asia	1972	63.11888	20	63.11888	NA	0	1	0
+90	China	Asia	1977	63.96736	25	63.96736	NA	0	1	0
+91	China	Asia	1982	65.525	30	65.525	NA	0	1	0
+92	China	Asia	1987	67.274	35	67.274	NA	0	1	0
+93	China	Asia	1992	68.69	40	68.69	NA	0	1	0
+94	China	Asia	1997	70.426	45	70.426	NA	0	1	0
+95	China	Asia	2002	72.028	50	72.028	NA	0	1	0
+96	China	Asia	2007	72.961	55	72.961	NA	0	1	0
+97	Costa Rica	Americas	1952	57.206	0	57.206	NA	0	1	0
+98	Costa Rica	Americas	1957	60.026	5	60.026	NA	0	1	0
+99	Costa Rica	Americas	1962	62.842	10	62.842	NA	0	1	0
+100	Costa Rica	Americas	1967	65.424	15	65.424	NA	0	1	0
+101	Costa Rica	Americas	1972	67.849	20	67.849	NA	0	1	0
+102	Costa Rica	Americas	1977	70.75	25	70.75	NA	0	1	0
+103	Costa Rica	Americas	1982	73.45	30	73.45	NA	0	1	0
+104	Costa Rica	Americas	1987	74.752	35	74.752	NA	0	1	0
+105	Costa Rica	Americas	1992	75.713	40	75.713	NA	0	1	0
+106	Costa Rica	Americas	1997	77.26	45	77.26	NA	0	1	0
+107	Costa Rica	Americas	2002	78.123	50	78.123	NA	0	1	0
+108	Costa Rica	Americas	2007	78.782	55	78.782	NA	0	1	0
+109	Gambia	Africa	1952	30	0	30	NA	0	1	0
+110	Gambia	Africa	1957	32.065	5	32.065	NA	0	1	0
+111	Gambia	Africa	1962	33.896	10	33.896	NA	0	1	0
+112	Gambia	Africa	1967	35.857	15	35.857	NA	0	1	0
+113	Gambia	Africa	1972	38.308	20	38.308	NA	0	1	0
+114	Gambia	Africa	1977	41.842	25	41.842	NA	0	1	0
+115	Gambia	Africa	1982	45.58	30	45.58	NA	0	1	0
+116	Gambia	Africa	1987	49.265	35	49.265	NA	0	1	0
+117	Gambia	Africa	1992	52.644	40	52.644	NA	0	1	0
+118	Gambia	Africa	1997	55.861	45	55.861	NA	0	1	0
+119	Gambia	Africa	2002	58.041	50	58.041	NA	0	1	0
+120	Gambia	Africa	2007	59.448	55	59.448	NA	0	1	0
+121	Haiti	Americas	1952	37.579	0	37.579	NA	0	1	0
+122	Haiti	Americas	1957	40.696	5	40.696	NA	0	1	0
+123	Haiti	Americas	1962	43.59	10	43.59	NA	0	1	0
+124	Haiti	Americas	1967	46.243	15	46.243	NA	0	1	0
+125	Haiti	Americas	1972	48.042	20	48.042	NA	0	1	0
+126	Haiti	Americas	1977	49.923	25	49.923	NA	0	1	0
+127	Haiti	Americas	1982	51.461	30	51.461	NA	0	1	0
+128	Haiti	Americas	1987	53.636	35	53.636	NA	0	1	0
+129	Haiti	Americas	1992	55.089	40	55.089	NA	0	1	0
+130	Haiti	Americas	1997	56.671	45	56.671	NA	0	1	0
+131	Haiti	Americas	2002	58.137	50	58.137	NA	0	1	0
+132	Haiti	Americas	2007	60.916	55	60.916	NA	0	1	0
+133	Honduras	Americas	1952	41.912	0	41.912	NA	0	1	0
+134	Honduras	Americas	1957	44.665	5	44.665	NA	0	1	0
+135	Honduras	Americas	1962	48.041	10	48.041	NA	0	1	0
+136	Honduras	Americas	1967	50.924	15	50.924	NA	0	1	0
+137	Honduras	Americas	1972	53.884	20	53.884	NA	0	1	0
+138	Honduras	Americas	1977	57.402	25	57.402	NA	0	1	0
+139	Honduras	Americas	1982	60.909	30	60.909	NA	0	1	0
+140	Honduras	Americas	1987	64.492	35	64.492	NA	0	1	0
+141	Honduras	Americas	1992	66.399	40	66.399	NA	0	1	0
+142	Honduras	Americas	1997	67.659	45	67.659	NA	0	1	0
+143	Honduras	Americas	2002	68.565	50	68.565	NA	0	1	0
+144	Honduras	Americas	2007	70.198	55	70.198	NA	0	1	0
+145	Iceland	Europe	1952	72.49	0	72.49	NA	0	1	0
+146	Iceland	Europe	1957	73.47	5	73.47	NA	0	1	0
+147	Iceland	Europe	1962	73.68	10	73.68	NA	0	1	0
+148	Iceland	Europe	1967	73.73	15	73.73	NA	0	1	0
+149	Iceland	Europe	1972	74.46	20	74.46	NA	0	1	0
+150	Iceland	Europe	1977	76.11	25	76.11	NA	0	1	0
+151	Iceland	Europe	1982	76.99	30	76.99	NA	0	1	0
+152	Iceland	Europe	1987	77.23	35	77.23	NA	0	1	0
+153	Iceland	Europe	1992	78.77	40	78.77	NA	0	1	0
+154	Iceland	Europe	1997	78.95	45	78.95	NA	0	1	0
+155	Iceland	Europe	2002	80.5	50	80.5	NA	0	1	0
+156	Iceland	Europe	2007	81.757	55	81.757	NA	0	1	0
+157	Israel	Asia	1952	65.39	0	65.39	NA	0	1	0
+158	Israel	Asia	1957	67.84	5	67.84	NA	0	1	0
+159	Israel	Asia	1962	69.39	10	69.39	NA	0	1	0
+160	Israel	Asia	1967	70.75	15	70.75	NA	0	1	0
+161	Israel	Asia	1972	71.63	20	71.63	NA	0	1	0
+162	Israel	Asia	1977	73.06	25	73.06	NA	0	1	0
+163	Israel	Asia	1982	74.45	30	74.45	NA	0	1	0
+164	Israel	Asia	1987	75.6	35	75.6	NA	0	1	0
+165	Israel	Asia	1992	76.93	40	76.93	NA	0	1	0
+166	Israel	Asia	1997	78.269	45	78.269	NA	0	1	0
+167	Israel	Asia	2002	79.696	50	79.696	NA	0	1	0
+168	Israel	Asia	2007	80.745	55	80.745	NA	0	1	0
+169	Japan	Asia	1952	63.03	0	63.03	NA	0	1	0
+170	Japan	Asia	1957	65.5	5	65.5	NA	0	1	0
+171	Japan	Asia	1962	68.73	10	68.73	NA	0	1	0
+172	Japan	Asia	1967	71.43	15	71.43	NA	0	1	0
+173	Japan	Asia	1972	73.42	20	73.42	NA	0	1	0
+174	Japan	Asia	1977	75.38	25	75.38	NA	0	1	0
+175	Japan	Asia	1982	77.11	30	77.11	NA	0	1	0
+176	Japan	Asia	1987	78.67	35	78.67	NA	0	1	0
+177	Japan	Asia	1992	79.36	40	79.36	NA	0	1	0
+178	Japan	Asia	1997	80.69	45	80.69	NA	0	1	0
+179	Japan	Asia	2002	82	50	82	NA	0	1	0
+180	Japan	Asia	2007	82.603	55	82.603	NA	0	1	0
+181	Libya	Africa	1952	42.723	0	42.723	NA	0	1	0
+182	Libya	Africa	1957	45.289	5	45.289	NA	0	1	0
+183	Libya	Africa	1962	47.808	10	47.808	NA	0	1	0
+184	Libya	Africa	1967	50.227	15	50.227	NA	0	1	0
+185	Libya	Africa	1972	52.773	20	52.773	NA	0	1	0
+186	Libya	Africa	1977	57.442	25	57.442	NA	0	1	0
+187	Libya	Africa	1982	62.155	30	62.155	NA	0	1	0
+188	Libya	Africa	1987	66.234	35	66.234	NA	0	1	0
+189	Libya	Africa	1992	68.755	40	68.755	NA	0	1	0
+190	Libya	Africa	1997	71.555	45	71.555	NA	0	1	0
+191	Libya	Africa	2002	72.737	50	72.737	NA	0	1	0
+192	Libya	Africa	2007	73.952	55	73.952	NA	0	1	0
+193	Puerto Rico	Americas	1952	64.28	0	64.28	NA	0	1	0
+194	Puerto Rico	Americas	1957	68.54	5	68.54	NA	0	1	0
+195	Puerto Rico	Americas	1962	69.62	10	69.62	NA	0	1	0
+196	Puerto Rico	Americas	1967	71.1	15	71.1	NA	0	1	0
+197	Puerto Rico	Americas	1972	72.16	20	72.16	NA	0	1	0
+198	Puerto Rico	Americas	1977	73.44	25	73.44	NA	0	1	0
+199	Puerto Rico	Americas	1982	73.75	30	73.75	NA	0	1	0
+200	Puerto Rico	Americas	1987	74.63	35	74.63	NA	0	1	0
+201	Puerto Rico	Americas	1992	73.911	40	73.911	NA	0	1	0
+202	Puerto Rico	Americas	1997	74.917	45	74.917	NA	0	1	0
+203	Puerto Rico	Americas	2002	77.778	50	77.778	NA	0	1	0
+204	Puerto Rico	Americas	2007	78.746	55	78.746	NA	0	1	0
+205	Reunion	Africa	1952	52.724	0	52.724	NA	0	1	0
+206	Reunion	Africa	1957	55.09	5	55.09	NA	0	1	0
+207	Reunion	Africa	1962	57.666	10	57.666	NA	0	1	0
+208	Reunion	Africa	1967	60.542	15	60.542	NA	0	1	0
+209	Reunion	Africa	1972	64.274	20	64.274	NA	0	1	0
+210	Reunion	Africa	1977	67.064	25	67.064	NA	0	1	0
+211	Reunion	Africa	1982	69.885	30	69.885	NA	0	1	0
+212	Reunion	Africa	1987	71.913	35	71.913	NA	0	1	0
+213	Reunion	Africa	1992	73.615	40	73.615	NA	0	1	0
+214	Reunion	Africa	1997	74.772	45	74.772	NA	0	1	0
+215	Reunion	Africa	2002	75.744	50	75.744	NA	0	1	0
+216	Reunion	Africa	2007	76.442	55	76.442	NA	0	1	0
+217	Rwanda	Africa	1952	40	0	40	NA	0	1	0
+218	Rwanda	Africa	1957	41.5	5	41.5	NA	0	1	0
+219	Rwanda	Africa	1962	43	10	43	NA	0	1	0
+220	Rwanda	Africa	1967	44.1	15	44.1	NA	0	1	0
+221	Rwanda	Africa	1972	44.6	20	44.6	NA	0	1	0
+222	Rwanda	Africa	1977	45	25	45	NA	0	1	0
+223	Rwanda	Africa	1982	46.218	30	46.218	NA	0	1	0
+224	Rwanda	Africa	1987	44.02	35	44.02	NA	0	1	0
+225	Rwanda	Africa	1992	23.599	40	23.599	NA	0	1	0
+226	Rwanda	Africa	1997	36.087	45	36.087	NA	0	1	0
+227	Rwanda	Africa	2002	43.413	50	43.413	NA	0	1	0
+228	Rwanda	Africa	2007	46.242	55	46.242	NA	0	1	0
+229	Spain	Europe	1952	64.94	0	64.94	NA	0	1	0
+230	Spain	Europe	1957	66.66	5	66.66	NA	0	1	0
+231	Spain	Europe	1962	69.69	10	69.69	NA	0	1	0
+232	Spain	Europe	1967	71.44	15	71.44	NA	0	1	0
+233	Spain	Europe	1972	73.06	20	73.06	NA	0	1	0
+234	Spain	Europe	1977	74.39	25	74.39	NA	0	1	0
+235	Spain	Europe	1982	76.3	30	76.3	NA	0	1	0
+236	Spain	Europe	1987	76.9	35	76.9	NA	0	1	0
+237	Spain	Europe	1992	77.57	40	77.57	NA	0	1	0
+238	Spain	Europe	1997	78.77	45	78.77	NA	0	1	0
+239	Spain	Europe	2002	79.78	50	79.78	NA	0	1	0
+240	Spain	Europe	2007	80.941	55	80.941	NA	0	1	0
+241	Switzerland	Europe	1952	69.62	0	69.62	NA	0	1	0
+242	Switzerland	Europe	1957	70.56	5	70.56	NA	0	1	0
+243	Switzerland	Europe	1962	71.32	10	71.32	NA	0	1	0
+244	Switzerland	Europe	1967	72.77	15	72.77	NA	0	1	0
+245	Switzerland	Europe	1972	73.78	20	73.78	NA	0	1	0
+246	Switzerland	Europe	1977	75.39	25	75.39	NA	0	1	0
+247	Switzerland	Europe	1982	76.21	30	76.21	NA	0	1	0
+248	Switzerland	Europe	1987	77.41	35	77.41	NA	0	1	0
+249	Switzerland	Europe	1992	78.03	40	78.03	NA	0	1	0
+250	Switzerland	Europe	1997	79.37	45	79.37	NA	0	1	0
+251	Switzerland	Europe	2002	80.62	50	80.62	NA	0	1	0
+252	Switzerland	Europe	2007	81.701	55	81.701	NA	0	1	0
+253	Tunisia	Africa	1952	44.6	0	44.6	NA	0	1	0
+254	Tunisia	Africa	1957	47.1	5	47.1	NA	0	1	0
+255	Tunisia	Africa	1962	49.579	10	49.579	NA	0	1	0
+256	Tunisia	Africa	1967	52.053	15	52.053	NA	0	1	0
+257	Tunisia	Africa	1972	55.602	20	55.602	NA	0	1	0
+258	Tunisia	Africa	1977	59.837	25	59.837	NA	0	1	0
+259	Tunisia	Africa	1982	64.048	30	64.048	NA	0	1	0
+260	Tunisia	Africa	1987	66.894	35	66.894	NA	0	1	0
+261	Tunisia	Africa	1992	70.001	40	70.001	NA	0	1	0
+262	Tunisia	Africa	1997	71.973	45	71.973	NA	0	1	0
+263	Tunisia	Africa	2002	73.042	50	73.042	NA	0	1	0
+264	Tunisia	Africa	2007	73.923	55	73.923	NA	0	1	0
+265	Turkey	Europe	1952	43.585	0	43.585	NA	0	1	0
+266	Turkey	Europe	1957	48.079	5	48.079	NA	0	1	0
+267	Turkey	Europe	1962	52.098	10	52.098	NA	0	1	0
+268	Turkey	Europe	1967	54.336	15	54.336	NA	0	1	0
+269	Turkey	Europe	1972	57.005	20	57.005	NA	0	1	0
+270	Turkey	Europe	1977	59.507	25	59.507	NA	0	1	0
+271	Turkey	Europe	1982	61.036	30	61.036	NA	0	1	0
+272	Turkey	Europe	1987	63.108	35	63.108	NA	0	1	0
+273	Turkey	Europe	1992	66.146	40	66.146	NA	0	1	0
+274	Turkey	Europe	1997	68.835	45	68.835	NA	0	1	0
+275	Turkey	Europe	2002	70.845	50	70.845	NA	0	1	0
+276	Turkey	Europe	2007	71.777	55	71.777	NA	0	1	0
+277	Yemen, Rep.	Asia	1952	32.548	0	32.548	NA	0	1	0
+278	Yemen, Rep.	Asia	1957	33.97	5	33.97	NA	0	1	0
+279	Yemen, Rep.	Asia	1962	35.18	10	35.18	NA	0	1	0
+280	Yemen, Rep.	Asia	1967	36.984	15	36.984	NA	0	1	0
+281	Yemen, Rep.	Asia	1972	39.848	20	39.848	NA	0	1	0
+282	Yemen, Rep.	Asia	1977	44.175	25	44.175	NA	0	1	0
+283	Yemen, Rep.	Asia	1982	49.113	30	49.113	NA	0	1	0
+284	Yemen, Rep.	Asia	1987	52.922	35	52.922	NA	0	1	0
+285	Yemen, Rep.	Asia	1992	55.599	40	55.599	NA	0	1	0
+286	Yemen, Rep.	Asia	1997	58.02	45	58.02	NA	0	1	0
+287	Yemen, Rep.	Asia	2002	60.308	50	60.308	NA	0	1	0
+288	Yemen, Rep.	Asia	2007	62.698	55	62.698	NA	0	1	0
